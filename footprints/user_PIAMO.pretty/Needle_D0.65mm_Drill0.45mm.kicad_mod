@@ -1,0 +1,119 @@
+(footprint "Needle_D0.65mm_Drill0.45mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Needle diameter 0.65mm, hole diameter 0.45mm")
+	(tags "Needle THT pad")
+	(property "Reference" "REF**"
+		(at 0.254 -1.27 0)
+		(layer "F.Fab")
+		(uuid "4dcb909e-4311-418e-8c8a-90a63b4bc0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Needle_D0.65mm_Drill0.45mm"
+		(at 0 2.05 0)
+		(layer "F.Fab")
+		(uuid "030b4d0e-f03e-47c3-9f66-e3bccc7b2969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9579db0a-6f86-4577-97a6-78adae1581ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e2165dd-6608-494b-9ca1-8f1c17c826a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce0f364b-360a-4b3e-8ba0-bd58cb5a6cd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 0.45 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3daeed5a-c80e-4b7d-bf56-5752a0141f88")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3bd91207-76f0-43cf-8035-9c7a0db76f55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.254 -1.27 0)
+		(layer "F.Fab")
+		(uuid "1f042041-1a05-402f-8721-7b37f2804461")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.65 0.65)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2285507f-9833-4583-af0b-827143b3c66b")
+	)
+	(model "${KICAD8_USER_3DMODEL_DIR}/Piamo.3dshapes/needle.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
