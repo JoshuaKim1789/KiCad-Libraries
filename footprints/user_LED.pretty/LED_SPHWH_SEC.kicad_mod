@@ -195,6 +195,12 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d57d9879-4e77-4d16-9170-e7aaf1576c9b")
 	)
+	(group ""
+		(uuid "0aebc107-b253-41d9-b49c-bcea3423c30e")
+		(members "28dc5df0-c96c-4c60-88e2-38d13157591a" "29c75f2e-cd9d-425b-98c3-9fdb78517002"
+			"cab9520e-b37f-4af8-8225-001ccb2be447"
+		)
+	)
 	(model "${KICAD8_USER_3DMODEL_DIR}/LED.3dshapes/LH351B.stp"
 		(offset
 			(xyz 0 0 0.42)
