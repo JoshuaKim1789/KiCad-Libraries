@@ -2351,7 +2351,7 @@
 				)
 			)
 		)
-		(property "Value" "D_ZENER_KA_SOD-123"
+		(property "Value" "BZT52C12-TP"
 			(at 0 -2.54 0)
 			(effects
 				(font
