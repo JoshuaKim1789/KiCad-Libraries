@@ -262,14 +262,14 @@
 		(at -1.27 6.35)
 		(size 3.65 3.65)
 		(drill 3.45)
-		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "5a397243-1824-4421-84ca-3b152b945f37")
 	)
 	(pad "" np_thru_hole circle
 		(at 10.16 6.35)
 		(size 3.65 3.65)
 		(drill 3.45)
-		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "d616aeb0-7fe9-4ab5-b1ed-73fdc7934f9e")
 	)
 	(pad "1" thru_hole rect
@@ -347,27 +347,15 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/Connector.3dshapes/AB2_RJ45_VERT_UNSHIELDED.x3d"
+	(model "${KICAD8_USER_3DMODEL_DIR}/Connector.3dshapes/PJ012-8P8CX.stp"
 		(offset
-			(xyz 4.5 -4.7 -0.2)
-		)
-		(scale
-			(xyz 0.4 0.4 0.4)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/Connector.3dshapes/5520259-4.stp"
-		(hide yes)
-		(offset
-			(xyz 4.5 -4.75 16.5)
+			(xyz 4.5 3 16.25)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 -180)
 		)
 	)
 )
