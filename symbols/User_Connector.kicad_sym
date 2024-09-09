@@ -2050,24 +2050,6 @@
 					(type outline)
 				)
 			)
-			(pin power_out line
-				(at 12.7 2.54 180)
-				(length 5.08)
-				(name "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 12.7 0 180)
 				(length 5.08)
@@ -2079,24 +2061,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 12.7 -2.54 180)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2155,6 +2119,44 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "35312-0460_1_0"
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 		)
@@ -2408,24 +2410,6 @@
 					(type outline)
 				)
 			)
-			(pin power_out line
-				(at -5.08 2.54 0)
-				(length 5.08)
-				(name "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 5.08)
@@ -2437,24 +2421,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -5.08 -2.54 0)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2513,6 +2479,44 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "35312-0460_(m)_1_0"
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 		)
