@@ -9,18 +9,18 @@
 		(uuid "021fd452-8da6-4785-a4c8-8a3a563f3fde")
 		(effects
 			(font
-				(size 1.401906 1.401906)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "IDC-Header_2x05_P1.27mm_Vertical"
-		(at 10.40864 4.50364 0)
+		(at 0.3 4.2 0)
 		(layer "F.Fab")
 		(uuid "b4eddff6-c49b-4c04-bea1-e44b73cd8b76")
 		(effects
 			(font
-				(size 1.402378 1.402378)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
