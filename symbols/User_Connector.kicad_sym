@@ -9749,7 +9749,7 @@
 	(symbol "S4B-XH-SM4-TBLFSN"
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
@@ -9761,7 +9761,7 @@
 			)
 		)
 		(property "Value" "S4B-XH-SM4-TBLFSN"
-			(at 10.16 -5.08 0)
+			(at 10.922 4.064 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9769,7 +9769,7 @@
 			)
 		)
 		(property "Footprint" "User_footprint_Connector:S4B-XH-SM4-TBLFSN"
-			(at 10.16 -6.604 0)
+			(at 10.16 -13.208 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9783,10 +9783,11 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 4POS 2.5MM"
-			(at 0 0 0)
+			(at 6.096 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,6 +9796,42 @@
 			)
 		)
 		(property "Type" "SMD"
+			(at 6.096 -13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "S4B-XH-SM4-TB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "455-2262-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -10005,7 +10042,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
 				(name "1"
@@ -10023,7 +10060,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "2"
@@ -10041,7 +10078,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "3"
@@ -10059,7 +10096,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
 				(name "4"
@@ -10070,6 +10107,42 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 8.89 2.54 270)
+				(length 0) hide
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 8.89 -10.16 270)
+				(length 0) hide
+				(name "MP"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.4986 1.4986)
