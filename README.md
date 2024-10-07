@@ -1,5 +1,5 @@
 # My KiCad Libraries
 
-Last Updated: Oct. 5, 2024
+Last Updated: Oct. 7, 2024
 
 --
