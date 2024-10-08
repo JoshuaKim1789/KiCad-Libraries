@@ -1400,7 +1400,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "RTDIN+"
@@ -1418,7 +1418,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 15.24 -10.16 180)
 				(length 2.54)
 				(name "RTDIN-"
@@ -1436,7 +1436,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 15.24 -12.7 180)
 				(length 2.54)
 				(name "FORCE-"
@@ -1457,7 +1457,7 @@
 			(pin power_in line
 				(at 2.54 -17.78 90)
 				(length 2.54)
-				(name "GND"
+				(name "GND2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1563,9 +1563,9 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -17.78 90)
-				(length 2.54) hide
-				(name "GND"
+				(at 0 -17.78 90)
+				(length 2.54)
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "BIAS"
@@ -1652,7 +1652,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "REFIN+"
@@ -1670,7 +1670,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "REFIN-"
@@ -1724,7 +1724,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "FORCE2"
